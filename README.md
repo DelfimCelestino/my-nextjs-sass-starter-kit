@@ -60,7 +60,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Delfim Celestino
 
 - GitHub: [@DelfimCelestino](https://github.com/DelfimCelestino)
-- Website: [findizi.com](https://delfim.vercel.app)
+- Website: [Delfim.com](https://delfim.vercel.app)
 
 ## Acknowledgments
 

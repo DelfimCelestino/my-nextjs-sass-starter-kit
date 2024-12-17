@@ -1,0 +1,27 @@
+{
+     "theme_color": "#000000",
+     "background_color": "#000000",
+     "icons": [
+          {
+               "purpose": "maskable",
+               "sizes": "512x512",
+               "src": "icon512_maskable.png",
+               "type": "image/png"
+          },
+          {
+               "purpose": "any",
+               "sizes": "512x512",
+               "src": "icon512_rounded.png",
+               "type": "image/png"
+          }
+     ],
+     "orientation": "any",
+     "display": "standalone",
+     "dir": "auto",
+     "lang": "pt-BR",
+     "description": "Stater Theme - Next.js Starter Theme for your next project by Delfim Celestino",
+     "name": "Stater Theme",
+     "short_name": "Stater Theme",
+     "start_url": "/",
+     "scope": "/"
+}

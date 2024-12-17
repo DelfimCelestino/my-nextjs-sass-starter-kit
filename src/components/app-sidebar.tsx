@@ -6,8 +6,10 @@ import {
   BookOpen,
   Bot,
   Command,
+  FileIcon,
   Frame,
   GalleryVerticalEnd,
+  MailIcon,
   Map,
   PieChart,
   Settings2,
@@ -25,6 +27,7 @@ import {
   SidebarHeader,
   SidebarRail,
 } from "@/components/ui/sidebar";
+import { SettingsDialog } from "./settings-dialog";
 
 // This is sample data.
 const data = {
@@ -35,7 +38,7 @@ const data = {
   },
   teams: [
     {
-      name: "Findizi Inx",
+      name: "Findizi Inc",
       logo: GalleryVerticalEnd,
       plan: "Enterprise",
     },
@@ -139,6 +142,16 @@ const data = {
   ],
   projects: [
     {
+      name: "Mail",
+      url: "/mail",
+      icon: MailIcon,
+    },
+    {
+      name: "Files",
+      url: "/files",
+      icon: FileIcon,
+    },
+    {
       name: "Design Engineering",
       url: "#",
       icon: Frame,
@@ -161,6 +174,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     <Sidebar collapsible="icon" {...props}>
       <SidebarHeader>
         <TeamSwitcher teams={data.teams} />
+        <SettingsDialog />
       </SidebarHeader>
       <SidebarContent>
         <NavMain items={data.navMain} />
